@@ -26,3 +26,7 @@ jobs:
 
       - name: Run tests with coverage
         run: pytest --cov=. --cov-report=term --cov-report=xml
+
+      - name: Deploy
+        run: |
+          echo "Deploying calculator application..."
